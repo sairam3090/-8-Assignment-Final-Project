@@ -38,16 +38,16 @@ const std::vector<uint32_t> SHA256::initialHashValues = {
 };
 
 const std::vector<uint32_t> SHA256::k = {
-    0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5,
-    // ... (rest of the constants as per the provided pseudocode)
+    0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5
+    
 };
 
 std::string SHA256::padMessage(const std::string& message) {
-    // ... (complete the padding logic)
+    
 }
 
 void SHA256::processBlock(const std::string& block, std::vector<uint32_t>& hashValues) {
-    // ... (complete the block processing logic)
+    
 }
 
 uint32_t SHA256::rightRotate(uint32_t value, uint32_t count) {
